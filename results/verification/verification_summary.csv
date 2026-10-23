@@ -1,0 +1,6 @@
+check,scope,result
+"RTL against bit-exact golden model, directed + random","105472 vectors, GCE-REF","PASS, 0 errors"
+"RTL against golden model, exhaustive","67108864 inputs, GCE-REF","PASS, all digests identical"
+"Yosys gate netlist against golden model, exhaustive","67108864 inputs, GCE-REF","PASS, all digests identical"
+Inferred latches in synthesised netlist,GCE-REF,0
+Injected RTL faults detected by the testbench,13 faults,13/13 detected

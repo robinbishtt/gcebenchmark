@@ -1,0 +1,4 @@
+design,max_err_LSB,mean_abs_err_LSB,rmse_LSB,error_budget_max16_rmse5,coeff_bits,generic_gates,generic_depth,asap7_delay_ns,asap7_area_um2,sky130_delay_ns,sky130_area_um2,verification
+GCE-REF,9.63,2.65,3.22,MET,560,5634,80,1.478,446,10.19,33616,exhaustive RTL vs model (2^26 inputs); exhaustive gate netlist vs model
+"Baseline A: global Horner polynomial, degree 6",5.13,2.98,3.31,MET,494,12458,208,4.305,968,33.45,73304,exhaustive RTL vs model (2^26 inputs)
+"Baseline B: piecewise-linear LUT, 32 segments",2.88,1.48,1.63,MET,3168,4900,134,2.564,403,20.98,31562,exhaustive RTL vs model (2^26 inputs)

@@ -1,0 +1,26 @@
+{
+ "samples": {
+  "train": 58980,
+  "test": 19662
+ },
+ "PA_model_NMSE_dB_test": -30.789063188233822,
+ "ACPR_measured_PA_output_dBc": -30.769846719228127,
+ "results": {
+  "no_DPD": {
+   "SIM_ACPR_dBc": -30.986328696133533,
+   "SIM_NMSE_vs_linear_dB": -19.852659239172933
+  },
+  "memoryless_gce_style": {
+   "SIM_ACPR_dBc": -39.63849775771293,
+   "SIM_NMSE_vs_linear_dB": -22.57356077893035
+  },
+  "memoryless_poly_o7": {
+   "SIM_ACPR_dBc": -39.873920448375856,
+   "SIM_NMSE_vs_linear_dB": -22.70206463648882
+  },
+  "GMP_memory_DPD": {
+   "SIM_ACPR_dBc": -38.503176886543635,
+   "SIM_NMSE_vs_linear_dB": -33.25600034390014
+  }
+ }
+}

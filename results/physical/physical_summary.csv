@@ -1,0 +1,3 @@
+design,platform,clock_target,floorplan_area_um2,floorplan_utilization_pct,final_area_um2_with_fill,final_utilization_pct,die_um,synth_cells,synth_area_um2,tns,wns,worst_slack,power_internal_W,power_switching_W,power_leakage_W,power_total_W,route_drc_violations,antenna_violations_pins,antenna_violations_nets
+GCE-REF,asap7,2000 ps,537,34,1558,100,43.6 x 43.6,4980,548.9,0.00,0.00,54.20,3.75e-03,4.02e-03,9.39e-07,7.77e-03,0,0,0
+GCE-REF,sky130hd,12 ns,40799,25,47572,29,410.1 x 410.1,4373,41232.0,-107.41,-6.01,-6.01,1.03e-02,1.28e-02,2.41e-08,2.30e-02,0,0,0
