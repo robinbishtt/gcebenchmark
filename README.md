@@ -80,6 +80,9 @@ results/
   opendpd/feasibility_APA200.json
   opendpd/psd_APA200.csv
 ```
+## contect info
+Email ID: bishtrobin75@gmail.com 
+LinkedIn: https://www.linkedin.com/in/robinbishtt
 
 ## License
 
