@@ -1,7 +1,7 @@
 # GCE
 
 GCE is a hardware design that corrects nonlinear distortion, such as the distortion a power amplifier adds to a signal. This repository has the results for GCE-REF, one block of GCE. It takes a 26-bit input word and returns the corrected output code, with much lower delay than a polynomial or a lookup table at the same accuracy.
-
+![GCE layout](https://github.com/robinbishtt/gcebenchmark/blob/main/results/physical/gce_ref/asap7/gds_full.png)
 ## Benchmarks
 
 All three designs approximate the same reference function and meet the same accuracy limit (maximum error 16 LSB, RMS error 5 LSB), checked on all 2^26 inputs.
